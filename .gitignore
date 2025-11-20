@@ -17,3 +17,4 @@ FineCLIP/checkpoints
 flair/pretrained
 tips/pytorch/checkpoints
 **checkpoints
+.idea/

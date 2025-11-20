@@ -64,14 +64,16 @@ We utilize eight semantic segmentation datasets as used in [SegEarth](https://gi
         - Optional: Adding `--fqg` to enable **quick_gelu**.
         - Optional: Adding `--long-clip load_from_scratch` to enable **LongCLIP**.
 
-<p align="center">
+<figure style="text-align:center;">
   <img src="assets/ovss.png" width="100%">
-  <br>
-  <em>
-    OVSS accuracies across RS benchmarks (mIoU, %). G denotes general-domain models, and RS refers to RS-specific models.
-    f. indicates models specifically designed with fine-grained optimization. All models use an input image size of 224, except TIPS (448)
-  </em>
-</p>
+  <figcaption>
+    <em>
+      OVSS accuracies across RS benchmarks (mIoU, %). G denotes general-domain models, and RS refers to RS-specific models.
+      f. indicates models specifically designed with fine-grained optimization. All models use an input image size of 224, except TIPS (448)
+    </em>
+  </figcaption>
+</figure>
+
 
 
 
