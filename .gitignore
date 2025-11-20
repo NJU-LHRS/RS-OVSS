@@ -7,7 +7,6 @@ data
 *.pyc
 *.pt
 *.xlsx
-*.png
 .vscode
 __pycache__
 *.out
