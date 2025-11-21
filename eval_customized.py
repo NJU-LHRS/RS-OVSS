@@ -73,7 +73,7 @@ def parse_args():
 
     parser.add_argument('--vit-type', type=str, default='ViT-B-16',
                         help='Vision Transformer type, e.g. ViT-B-16, ViT-L-14')
-    parser.add_argument('--method', type=str, default='FarSLIP2-LC',
+    parser.add_argument('--method', type=str, default='FarSLIP2',
                         help='Method name, e.g. CLIP FineCLIP CLIPSelf tips cosmos MetaCLIP SkyCLIP LRSCLIP GeoRSCLIP RemoteCLIP FarSLIP1/2')
     parser.add_argument('--pretrained', type=str, default=None,
                         help='Path to pretrained open_clip model checkpoint (Only for method==CLIP)')
